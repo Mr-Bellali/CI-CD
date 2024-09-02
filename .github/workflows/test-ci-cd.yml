@@ -1,0 +1,10 @@
+name: testig ci cd
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello world
+        run: echo "hello world"
+      - name: calculation
+        run: echo 5 + 2
